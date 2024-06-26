@@ -1,3 +1,6 @@
 # FragmentBuilding
-Building molecular fragments using Reaction SMIRKS
-Generating conformers of these products to compute Tanimoto Scores between the full set (MatrixOverlayComparison) or against a reference molecule (SingleOverlayComparison). These modules can be found in FragmentComparison.py
+1. ReactionSMIRKS_Basics: Building molecular fragments using Reaction SMIRKS transform language via Openeye Libgen. 
+
+2. FragmentComparison.py: Helper functions for generating conformers and conduting Tanimoto scoring against either a single reference (SingleOverlayComparison) and multiple (MatrixOverlayComparison).
+
+3. ShapeScoring_Clustering: utilizing conformer generation and similarity scores to run density-based clustering via DBSCAN.
